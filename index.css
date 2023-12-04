@@ -151,4 +151,17 @@ padding:15px 10px;
 text-decoration: none;
 }
 
+        .container .opinion  .content {
+width:80%;
+height:100%;
+border: solid 2px;
+padding:5%;
+background-color:#1A1A19;
+transition:1.3s;
+justify-content:center;
+margin-left:5px;
+ }
+
+
+        
     }
