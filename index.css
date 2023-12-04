@@ -138,18 +138,18 @@ height:10vh;
 
          nav ul{
  float:left;
- margin-right:35px;
+ margin-right:90px;
 }
 
 nav ul li{
 display:inline-block;
-line-height:90px;
+line-height:190px;
 }
 
 nav ul li a{
 color:white;
-font-size:40px;
-padding:7px 13px;
+font-size:140px;
+padding:17px 13px;
 text-decoration: none;
 }
         
