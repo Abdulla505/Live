@@ -154,3 +154,17 @@ text-decoration: none;
 }
         
     }
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 100px) {
+    body {
+        font-size: 2vw; /* زيادة حجم الخط على شاشة التلفزيون */
+    }
+}
