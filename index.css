@@ -75,7 +75,7 @@ justify-content:center;
 
 .container .opinion  .content {
 width:80%;
-height:150px;
+height:100%;
 border: solid 2px;
 padding:5%;
 background-color:#1A1A19;
@@ -86,7 +86,7 @@ margin-left:5px;
 
 .container .opinion  .content:hover{
 width:82%;
-height:150px;
+height:100%;
 border: solid 2px;
 padding:5%;
 background-color:#1A1A19;
