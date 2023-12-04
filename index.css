@@ -133,3 +133,24 @@ background-color:black;
 height:10vh;
 }
     
+    @media screen and (min-width: 600px) {
+
+
+         nav ul{
+ float:left;
+ margin-right:35px;
+}
+
+nav ul li{
+display:inline-block;
+line-height:90px;
+}
+
+nav ul li a{
+color:white;
+font-size:40px;
+padding:7px 13px;
+text-decoration: none;
+}
+        
+    }
