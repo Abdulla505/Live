@@ -132,3 +132,8 @@ footer{
 background-color:black;
 height:10vh;
 }
+    @media screen and (min-width: 600px) {
+        .content {
+            width: 50%;
+        }
+    }
