@@ -219,12 +219,44 @@
    position: unset;
    }
    }
+
+
+
+
+
+  #louder{
+	  background: white url(louder.gif) no-repeat center center;
+	  background-size:60%;
+	  height:100vh;
+	  width:100%;
+	  position:fixed;
+	  z-index:100;
+	  }  
+	
+	  h4{
+	   text-align: center;
+	   margin-top:20%;
+	  }
+
+
+
+
+
 	    
     </style>
 </head>
 <body>
 
-
+<div id="louder">
+  <h4> the government works for you?</h4>
+  </div>
+	
+ <script>
+ var louder = document.getElementById("louder");
+ 	 window.addEventListener("loud", function(){
+ 	 louder.style.display = "none";
+ });
+ </script>
 
 <img src="logo.png" width="20%" height="20%" margin-top="8px"> <h5 color="red" >تحت التطوير  </h5>
 
