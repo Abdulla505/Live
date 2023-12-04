@@ -136,4 +136,10 @@ height:10vh;
         .content {
             width: 50%;
         }
+
+        .container .opinion  .content img{
+width:100%;
+height:280px;
+
+        }
     }
