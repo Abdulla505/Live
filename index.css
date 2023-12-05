@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Tajawal:wght@200&display=swap');
     *{
     padding:0px;
@@ -11,6 +11,25 @@ body{
 width:100%;
 
 }
+
+.containerAd{
+padding:5%;
+background-color:black;
+}
+
+.containerAd .Ad{
+background-color:#963638;
+padding:5%;
+}
+
+.containerAd .Ad p{
+justify-content:left;
+color:white;
+display: flot;
+justify-content: space-evenly;
+margin: 1.5rem;
+}
+
 nav{
 background-color:black;
 height:10vh;
@@ -132,4 +151,4 @@ footer{
 background-color:black;
 height:10vh;
 }
-    
+ 
