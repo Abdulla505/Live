@@ -1,3 +1,8 @@
+
+function bein1(){
+ window.location.href = "https://5kora.yalla--shoot.live/albaplayer/on-time-1/";
+}
+
 function ssc1(){
  window.location.href = "https://www.ipslow.com/tv/canal.php?id=ssc1";
  }
