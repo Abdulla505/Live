@@ -1,7 +1,13 @@
 
-function bein1(){
+function bein2(){
  window.location.href = "https://5kora.yalla--shoot.live/albaplayer/on-time-1/";
 }
+
+
+function bein1(){
+ window.location.href = "https://ksa.alkoora.live/albaplayer/on-time-sport-2/";
+}
+
 
 function ssc1(){
  window.location.href = "https://www.ipslow.com/tv/canal.php?id=ssc1";
