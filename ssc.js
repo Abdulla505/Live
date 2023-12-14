@@ -1,3 +1,7 @@
+function tntsport1(){
+ window.location.href = "https://247c.mrgamingstreams.com/mrgamingbtsport1.m3u8";
+}
+
 
 function bein2(){
  window.location.href = "https://5kora.yalla--shoot.live/albaplayer/on-time-1/";
