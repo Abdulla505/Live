@@ -18,7 +18,7 @@ function ssc1(){
  }
 
  
- function ss2(){
+ function ssc2(){
  window.location.href = "https://www.ipslow.com/tv/canal.php?id=ssc2";
  }
  
