@@ -27,7 +27,14 @@
     
 <meta name="netpub_d7a5a542ec3957a72564dd216b441e9a" content="d7a5a542ec3957a72564dd216b441e9a_4552bb7e72dc45bfb0d55086a14b130b" />
 
-
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() {
+                // Perform an automatic click (adjust selector as needed)
+                document.getElementById("targetButton").click();
+            }, 3000); // 3000 milliseconds = 3 seconds
+        });
+</script>
 	 
 	<link rel="stylesheet" href="index.css">
 	<script src="index.js"></script>
@@ -35,8 +42,11 @@
  </head>
  <body>
 
+    <button id="targetButton" onclick="alert('Button Clicked!')">Target Button</button>
+  
 
 
+	 
 
 
 	 
