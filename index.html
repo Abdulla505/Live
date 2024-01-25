@@ -29,10 +29,12 @@
 
 <script>
         document.addEventListener("DOMContentLoaded", function() {
-            setTimeout(function() {
-                // Perform an automatic click (adjust selector as needed)
-                document.getElementById("targetButton").click();
-            }, 3000); // 3000 milliseconds = 3 seconds
+            document.body.addEventListener("click", function() {
+                setTimeout(function() {
+                    // Reload the page after 4 seconds
+                    location.reload();
+                }, 4000); // 4000 milliseconds = 4 seconds
+            });
         });
 </script>
 	 
