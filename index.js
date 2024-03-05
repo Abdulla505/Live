@@ -20,4 +20,6 @@
  function ontime() {
  window.location.href = "ontime.html";
  }
- 
+ function error() {
+ window.location.href = "error.html";
+ }
