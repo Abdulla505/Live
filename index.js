@@ -24,3 +24,6 @@
  function error() {
  window.location.href = "error.html";
  }
+function UEFA() {
+ window.location.href = "beinsport1live.html";
+}
