@@ -46,6 +46,7 @@ nav ul li a:hover {
 
 main {
     padding: 80px 20px 20px; /* إضافة مسافة لتجنب التداخل مع شريط التنقل */
+    margin:20px;
 }
 
 .container {
