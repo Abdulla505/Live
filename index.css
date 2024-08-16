@@ -46,7 +46,7 @@ nav ul li a:hover {
 
 main {
     padding: 80px 20px 20px; /* إضافة مسافة لتجنب التداخل مع شريط التنقل */
-    margin:20px;
+    margin:30px;
 }
 
 .container {
@@ -117,3 +117,14 @@ footer h4 {
 footer p {
     margin: 10px 0;
 }
+ .logo{
+	width:80%;
+	margin-right: 50px;
+	padding:3px;
+    }
+    .logo img{
+    border:solid 1px #ffffff50;
+    border-radius:50%;
+    padding:3px;
+    box-shadow:1px 1px 1px White;
+    }
